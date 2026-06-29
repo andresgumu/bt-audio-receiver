@@ -1,0 +1,19 @@
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+build/
+.pio/
+.vscode/
+
+# Altium generated / temp
+History/
+__Previews/
+Project Outputs*/
+*.PrjPcbStructure
+*.~*
+
+# OS
+.DS_Store
+Thumbs.db
