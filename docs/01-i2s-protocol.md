@@ -16,3 +16,5 @@ Since I2S is specifically for audio streaming, it selects which part of the audi
 WS completes on full cycle per stereo sample pair. since the sample rate is fixed (44.1 kHz), `sample rate = WS frequency`. Then, the bit clock (BCK) has to be fast enough to shift all the bits in that time `BCK = sample_rate × bits_per_sample × channels` which is `44,100 x 16 x 2 = 1,411,200` bits per second. 
 
 In short: the bit clock runs at `sample_rate × bits × channels` because it must clock out every audio bit in real time; for 16-bit stereo at 44.1 kHz that's ~1.41 MHz, exactly 32x the word-select clock.
+
+One more thing; the `SCK` pin on the DAC needs to be grounded to function as a high frequency master clock (MCLK), so in reality there are thre wires that are in question.
