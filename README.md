@@ -2,6 +2,10 @@
 
 A from-scratch **Bluetooth A2DP audio receiver** that turns a phone into a wireless source for a passive stereo amplifier. Built as a hardware-engineering learning project: breadboard prototype first, then a custom 2-layer PCB designed in Altium.
 
+<p align="center">
+  <img src="/images/pcb-3d.png" alt="3d PCB render" width="600" />
+</p>
+
 ---
 
 I inherited a set of older Bose passive bookshelf speakers driven by an amplifier with L/R RCA inputs. The only way to play audio was a wired RCA-to-USB-C dongle tethering my phone to the amp. I wanted that connection to be wireless; and rather than buy a $15 RCA-to-Bluetooth adapter, I wanted to design and build...
