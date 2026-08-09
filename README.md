@@ -48,9 +48,9 @@ Day-by-day build journal: [`LOGBOOK.md`](LOGBOOK.md)
 
 - [x] **Phase 1 — Setup.** Parts ordered, toolchain installed, firmware compiles clean against the target.
 - [x] **Phase 2 — Breadboard validation.** Wire ESP32 + PCM5102A, flash, pair, get audio out. *(The empirical "does the concept work" gate.)*
-- [ ] **Phase 3 — Schematic capture.** Translate the validated circuit into a clean Altium schematic.
-- [ ] **Phase 4 — PCB layout.** 2-layer board, ground plane, analog/digital separation, DRC, Gerber export, fab.
-- [ ] **Phase 5 — Assembly & bring-up.** Hand-solder the board (TSSOP DAC, 0805 passives), validate the custom hardware.
+- [x] **Phase 3 — Schematic capture.** Translate the validated circuit into a clean Altium schematic.
+- [x] **Phase 4 — PCB layout.** 2-layer board, ground plane, analog/digital separation, DRC, Gerber export, fab.
+- [ ] **Phase 5 — Assembly & bring-up (FUTURE)** Hand-solder the board (TSSOP DAC, 0805 passives), validate the custom hardware.
 
 ## Repository layout
 
