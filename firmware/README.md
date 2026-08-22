@@ -33,7 +33,7 @@ Install both libraries by cloning into your Arduino `libraries/` folder, or via 
 | GND | ground | GND |
 | | analog out | L / R / GND → RCA → amp |
 
-> GPIO assignments are the library defaults — confirm against the installed library version during bring-up. See [`../docs/01-i2s-protocol.md`](../docs/01-i2s-protocol.md) for why SCK ties to ground.
+> Confirm GPIO assignments against the installed library version during bring-up. See [`../docs/01-i2s-protocol.md`](../docs/01-i2s-protocol.md) for why SCK ties to ground.
 
 ## Some troubleshooting Tips
 
